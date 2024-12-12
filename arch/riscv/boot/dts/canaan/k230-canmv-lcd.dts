@@ -12,6 +12,8 @@
 
 	aliases {
 		serial3 = &uart3;
+		mmcblk0 = &mmc_sd0;
+		mmcblk1 = &mmc_sd1;
 	};
 
 	chosen {
